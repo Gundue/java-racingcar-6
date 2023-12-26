@@ -17,6 +17,5 @@ public class Foward {
                 carList.put(key, value.concat("-"));
             }
         }
-        System.out.println(carList);
     }
 }

@@ -9,9 +9,11 @@ public class Result {
         this.carList = carList;
     }
     public void printResult() {
+        System.out.println("실행 결과");
         for(String key: carList.keySet()){
             String value = carList.get(key);
             System.out.println(key+" : "+value);
         }
+        System.out.println();
     }
 }
