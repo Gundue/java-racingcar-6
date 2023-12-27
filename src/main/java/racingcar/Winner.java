@@ -30,11 +30,10 @@ public class Winner {
         }
     }
 
-    public void printWinner() {
+    public String getWinners() {
         findMaxValue();
         findWinner();
-        System.out.print("최종 우승자 : ");
-        System.out.println(String.join(", ", winnerList));
+        return String.join(", ", winnerList);
     }
 
 }
